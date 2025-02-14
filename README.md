@@ -52,4 +52,7 @@ _______________________________
 ```
 ## 📄 Отчет о работе:
 
+![photo_2025-02-14_11-49-19.jpg](https://github.com/Mikhayloves/SpringMVC/blob/main/photo_2025-02-14_11-49-19.jpg)
+![photo_2025-02-14_11-49-32.jpg](https://github.com/Mikhayloves/SpringMVC/blob/main/photo_2025-02-14_11-49-32.jpg)
+![photo_2025-02-14_11-51-16.jpg](https://github.com/Mikhayloves/SpringMVC/blob/main/photo_2025-02-14_11-51-16.jpg)
 
