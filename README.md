@@ -5,6 +5,8 @@ _______________________________
 
 _______________________________
 ## Что было реализованно:
-в качестве БД был выбран PostgreSQL.
+в качестве СУБД был выбран PostgreSQL.
 #!ОБЯЗАТЕЛЬНО !#
-перед запуском проверить файл [**`property`**](https://github.com/Mikhayloves/SpringMVC/blob/main/src/main/resources/application.properties) проверить настройки БД.
+перед запуском проверить файл [**`property`**](https://github.com/Mikhayloves/SpringMVC/blob/main/src/main/resources/application.properties) проверить настройки.
+
+
