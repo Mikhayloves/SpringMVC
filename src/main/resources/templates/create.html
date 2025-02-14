@@ -1,0 +1,17 @@
+<!DOCTYPE html>
+<html lang="en" xmlns:th="http://www.thymeleaf.org">
+<head>
+    <meta charset="UTF-8">
+    <title>Добавление нового рецепта</title>
+</head>
+<body>
+<h1>Новый рецепт</h1>
+<form action="/recipes/create" method="post">
+    <div>
+        <input type="text" name="name" placeholder="Название" required th:value="${recipe?.name}" />
+        <input type="text" name="description" placeholder="Описание" required th:value="${recipe?.description}"/>
+        <button type="submit">Добавить</button>
+    </div>
+</form>
+</body>
+</html>

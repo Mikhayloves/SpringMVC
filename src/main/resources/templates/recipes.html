@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html lang="en" xmlns:th="http://www.thymeleaf.org">
+<head>
+    <meta charset="UTF-8">
+    <title>Список рецептов</title>
+</head>
+<body>
+<h1>Список рецептов</h1>
+<table>
+    <tr>
+        <th>Название</th>
+        <th>Описание</th>
+    </tr>
+    <tr th:each="recipe : ${recipes}">
+        <td th:text="${recipe.name}">Название рецепта</td>
+        <td th:text="${recipe.description}">Описание рецепта</td>
+        <td>
+            <form th:action="@{/recipes/{name}/delete(name=${recipe.name})}" method="post">
+                <input type="hidden" name="_method" value="delete" />
+                <button type="submit">Удалить</button>
+            </form>
+        </td>
+    </tr>
+</table>
+</body>
+</html>
